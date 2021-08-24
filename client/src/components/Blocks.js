@@ -21,6 +21,7 @@ class Blocks extends Component {
             .then(json => this.setState({ blocks: json }));
 
     }
+    
 
     render() {
         console.log('this.state', this.state);

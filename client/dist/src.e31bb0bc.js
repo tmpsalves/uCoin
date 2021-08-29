@@ -33821,7 +33821,7 @@ var App = /*#__PURE__*/function (_Component) {
         to: "/transaction-pool"
       }, "\xC1rea de Transa\xE7\xF5es")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("div", {
         className: "WalletInfo"
-      }, /*#__PURE__*/_react.default.createElement("div", null, "Carteira: ", address), /*#__PURE__*/_react.default.createElement("div", null, "Saldo: ", balance)));
+      }, /*#__PURE__*/_react.default.createElement("div", null, "Carteira: ", address), /*#__PURE__*/_react.default.createElement("div", null, "Saldo: ", balance)), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("div", null, "Trabalho Realizado por: Tiago Alves | 30003460 | Universidade Aut\xF3noma de Lisboa"));
     }
   }]);
 
@@ -52455,7 +52455,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59052" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60475" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

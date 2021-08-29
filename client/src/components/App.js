@@ -30,6 +30,11 @@ class App extends Component {
           <div>Carteira: {address}</div>
           <div>Saldo: {balance}</div>
         </div>
+        <br />
+        <br />
+        <div>
+          Trabalho Realizado por: Tiago Alves | 30003460 | Universidade Autónoma de Lisboa
+        </div>
       </div>
     );
   }

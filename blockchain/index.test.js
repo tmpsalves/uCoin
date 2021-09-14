@@ -75,7 +75,7 @@ describe('Blockchain', () => {
             })
         })
     });
-    // ver replaceChain @blockchain.js
+    // ver replaceChain @index.js
     describe('replaceChain()', () => {
         let logSim;
         

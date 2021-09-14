@@ -4,7 +4,7 @@ const { ec, cryptoHash } = require('../util');
 
 class Wallet {
     constructor() {
-        this.balance = STARTING_BALANCE;
+        this.balance = STARTING_BALANCE; //variavel global
         this.keyPair = ec.genKeyPair();
         this.publicKey = this.keyPair.getPublic().encode('hex');
     }

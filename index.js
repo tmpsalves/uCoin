@@ -38,6 +38,7 @@ const transactionMiner = new TransactionMiner({ blockchain, transactionPool, wal
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'client/dist')));
 
+// CONFIGURACAO API - HTTP Requests
 app.get('/api/blocks', (req, res) => {
     res.json(blockchain.chain);
 });

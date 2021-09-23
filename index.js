@@ -17,7 +17,8 @@ const { getEventListener } = require('events');
 const isDevelopment = process.env.ENV === 'development';
 const REDIS_URL = isDevelopment ? 
     'redis://127.0.0.1:6379' : 
-    'redis://:p19b251ee2f30352af5694050a0b4151d28119e74f787587e036f835c5fbde897@ec2-3-93-123-2.compute-1.amazonaws.com:26329' //heroku redis address
+    //'redis://:p19b251ee2f30352af5694050a0b4151d28119e74f787587e036f835c5fbde897@ec2-3-93-123-2.compute-1.amazonaws.com:26329'
+    'redis://:p19b251ee2f30352af5694050a0b4151d28119e74f787587e036f835c5fbde897@ec2-44-195-122-102.compute-1.amazonaws.com:28260' //heroku redis address
 const DEFAULT_PORT = 3000;
 const ROOT_NODE_ADDRESS = `http://localhost:${DEFAULT_PORT}`;
 
